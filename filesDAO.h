@@ -6,6 +6,8 @@
 class filesDAO {
 public:
     void static get_recent_files_from_DB(std::vector<std::string>& v);
+
+    void static add_new_recent(std::string& name);
 };
 
 
